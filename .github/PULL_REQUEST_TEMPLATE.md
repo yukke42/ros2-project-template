@@ -1,10 +1,19 @@
 ## PR Type
 
-<!-- Select one and remove others. If an appropriate one is not listed, please write by yourself. -->
+<!-- Please check an item that is most relative type of change to yours. -->
+<!-- Please delete options that are not relevant. -->
 
-- New Feature
-- Improvement
-- Bug Fix
+- [ ] feat: A new feature
+- [ ] fix: A bug fix
+- [ ] docs: Documentation only changes
+- [ ] style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- [ ] refactor: A code change that neither fixes a bug nor adds a feature
+- [ ] perf: A code change that improves performance
+- [ ] test: Adding missing tests or correcting existing tests
+- [ ] build: Changes that affect the build system or external dependencies (example scopes: docker)
+- [ ] ci: Changes to our CI configuration files and scripts (example scopes: GitHub Actions)
+- [ ] chore: Other changes that don't modify src or test files
+- [ ] revert: Reverts a previous commit
 
 ## Related Links
 
@@ -13,35 +22,3 @@
 ## Description
 
 <!-- Describe what this PR changes. -->
-
-## Review Procedure
-
-<!-- Explain how to review this PR. -->
-
-## Remarks
-
-<!-- Write remarks as you like if you need them. -->
-
-## Pre-Review Checklist for the PR Author
-
-**PR Author should check the checkboxes below when creating the PR.**
-
-- [ ] Assign PR to reviewer
-
-## Checklist for the PR Reviewer
-
-**Reviewers should check the checkboxes below before approval.**
-
-- [ ] Commits are properly organized and messages are according to the guideline
-- [ ] (Optional) Unit tests have been written for new behavior
-- [ ] PR title describes the changes
-
-## Post-Review Checklist for the PR Author
-
-**PR Author should check the checkboxes below before merging.**
-
-- [ ] All open points are addressed and tracked via issues or tickets
-
-## CI Checks
-
-- **Build and test for PR**: Required to pass before the merge.
